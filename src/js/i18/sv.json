@@ -7,7 +7,29 @@
         "choose_language": "Välj språk"
     },
     "under_construction": "Under konstruktion... 🏗",
-    "title": "iFloat",
-    "subtitle": "Vi flyter..."
+    "people": {
+        "titles": {
+            "magnus": "Kapten",
+            "emil": "Befaren jungman",
+            "daniel": "Tredje styrman",
+            "sigge": "Båtsman"
+        }
+    },
+    "headers": {
+        "people": "Besättning",
+        "goal": "Mål",
+        "pictures": "Bilder",
+        "contact": "Kontakt"
+    },
+    "texts": {
+        "goal": "Att under Forsränningen 2022, Uppsala, konstruera och framföra en flotte med bravur. Vi vill även:",
+        "goals": {
+            "safety": "lära oss om säkerhet i vatten",
+            "construction": "utforska moderna flottbyggarmetoder",
+            "fun": "ha det riktigt roligt!"
+        },
+        "pictures": "Bilder på flottbyggandet och forsränningen kommer när evenemanget har börjat (slutet av april). Stay tuned!",
+        "contact": "Vill du komma i kontakt med oss? Hör av dig till "
+    }
 }
     

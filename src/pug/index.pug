@@ -8,8 +8,8 @@ block head
 block content
     img.mx-auto.d-block(src="assets/img/ifloat_v1.png", alt="iFloat" width=300)
 
-    h2.text-center.p-4(class="animate__animated animate__fadeInUp") 
-        .i18nelement(data-i18n='under_construction')
+    //- h2.text-center.p-4(class="animate__animated animate__fadeInUp") 
+    //-     .i18nelement(data-i18n='under_construction')
 
 
     //- div.container.areas-boxes
@@ -22,15 +22,54 @@ block content
     //-             | Hej 3
     //-         .col-lg-3.col-md-4.col-sm-12
     //-             | Hej 4
-    div.d-flex.flex-wrap
+
+    h1.text-center.p-4.pt-5(class="animate__animated animate__fadeInUp") 
+        .i18nelement(data-i18n='headers.people')
+
+    div.d-flex.flex-wrap.justify-content-evenly.text-center
         div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow")
-            | Hej 1
+            img(src="assets/img/people/magnus.jpeg", alt="Magnus Bertilsson" width="100%" weight="100%")
+            h3.pt-2 Magnus Bertilsson
+            h5.i18nelement(data-i18n='people.titles.magnus')
         div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow animate__delay-1s")
-            | Hej 2
+            img(src="assets/img/people/emil.jpeg", alt="Emil Sarling" width="100%" weight="100%")
+            h3.pt-2 Emil Sarling
+            h5.i18nelement(data-i18n='people.titles.emil')
         div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow animate__delay-2s")
-            | Hej 3
+            img(src="assets/img/people/daniel.jpeg", alt="Daniel Nilsson" width="100%" weight="100%")
+            h3.pt-2 Daniel Nilsson
+            h5.i18nelement(data-i18n='people.titles.daniel')
         div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow animate__delay-3s")
-            | Hej 4
+            img(src="assets/img/people/sigge.jpeg", alt="Sigge Stjärnholm" width="100%" weight="100%")
+            h3.pt-2 Sigge Stjärnholm
+            h5.i18nelement(data-i18n='people.titles.sigge')
+
+
+    h1.text-center.p-4.pt-5(class="animate__animated animate__fadeInUp animate__delay-3s") 
+        .i18nelement(data-i18n='headers.goal')
+
+    p.lead.text-center.pt-2.i18nelement.px-2.mx-2(class="animate__animated animate__fadeInUp animate__delay-4s" data-i18n='texts.goal')
+
+    ul.list-to-be-centered(class="animate__animated animate__fadeInUp animate__delay-5s")
+        li.i18nelement(data-i18n='texts.goals.safety')
+        li.i18nelement(data-i18n='texts.goals.construction')
+        li.i18nelement(data-i18n='texts.goals.fun')
+
+    h1.text-center.p-4.pt-5(class="animate__animated animate__fadeInUp animate__delay-5s") 
+        .i18nelement(data-i18n='headers.pictures')
+    
+    p.lead.text-center.pt-2.px-2.mx-2.i18nelement(class="animate__animated animate__fadeInUp animate__delay-5s" data-i18n='texts.pictures')
+
+
+    h1.text-center.p-4.pt-5(class="animate__animated animate__fadeInUp animate__delay-5s") 
+        .i18nelement(data-i18n='headers.contact')
+
+    .text-center.pt-2.pb-5.px-2.mx-2(class="animate__animated animate__fadeInUp animate__delay-5s") 
+        p.lead.i18nelement(data-i18n='texts.contact')
+        a.lead(href="mailto:info@ifloat.stjarnholm.com") info@ifloat.stjarnholm.com
+    //- p.lead.text-center.pt-2.pb-5(class="animate__animated animate__fadeInUp animate__delay-5s")
+    //-     .i18nelement(data-i18n='texts.contact')
+
 
     
 

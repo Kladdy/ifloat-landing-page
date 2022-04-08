@@ -10,12 +10,22 @@
 
 // Areas boxes
 .areas-boxes {
-    min-width: 300px;
+    width: 300px;
     height: 500px;
     border-radius: 5px;
-    // border-color: azure;
-    border-style: solid;
-    border-width: 2px;
+    // border-color: rgb(43, 183, 183);
+    // border-style: solid;
+    // border-width: 2px;
     margin: 20px;
 
+    img {
+        border-radius: 15px
+    }
+
+}
+
+.list-to-be-centered {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
 }

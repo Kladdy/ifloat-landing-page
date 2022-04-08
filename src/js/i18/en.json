@@ -6,6 +6,30 @@
         "current": "English",
         "choose_language": "Choose language"
     },
-    "under_construction": "Under construction... 🏗"
+    "under_construction": "Under construction... 🏗",
+    "people": {
+        "titles": {
+            "magnus": "Captain",
+            "emil": "Experienced Deckboy",
+            "daniel": "Third Mate",
+            "sigge": "Boatswain"
+        }
+    },
+    "headers": {
+        "people": "Crew",
+        "goal": "Goals",
+        "pictures": "Pictures",
+        "contact": "Contact"
+    },
+    "texts": {
+        "goal": "To construct a raft and partake in the Uppsala River Rafting 2022 with brilliance. We also want to:",
+        "goals": {
+            "safety": "learn about safety in water",
+            "construction": "explore modern raft construction techniques",
+            "fun": "have a really good time!"
+        },
+        "pictures": "Pictures of the construction and the river rafting will come once the event has started (end of April). Stay tuned!",
+        "contact": "Do you want to get in contact with us? Please reach out to "
+    }
 }
     
