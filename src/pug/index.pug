@@ -26,7 +26,7 @@ block content
     h1.text-center.p-4.pt-5(class="animate__animated animate__fadeInUp") 
         .i18nelement(data-i18n='headers.people')
 
-    div.d-flex.flex-wrap.justify-content-evenly.text-center
+    div.d-flex.flex-wrap.justify-content-evenly.text-center(style="overflow: hidden")
         div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow")
             img(src="assets/img/people/magnus.jpeg", alt="Magnus Bertilsson" width="100%" weight="100%")
             h3.pt-2 Magnus Bertilsson
@@ -45,26 +45,26 @@ block content
             h5.i18nelement(data-i18n='people.titles.sigge')
 
 
-    h1.text-center.p-4.pt-5(class="animate__animated animate__fadeInUp animate__delay-3s") 
+    h1.text-center.p-4.pt-5() 
         .i18nelement(data-i18n='headers.goal')
 
-    p.lead.text-center.pt-2.i18nelement.px-2.mx-2(class="animate__animated animate__fadeInUp animate__delay-4s" data-i18n='texts.goal')
+    p.lead.text-center.pt-2.i18nelement.px-2.mx-2(data-i18n='texts.goal')
 
-    ul.list-to-be-centered(class="animate__animated animate__fadeInUp animate__delay-5s")
+    ul.list-to-be-centered()
         li.i18nelement(data-i18n='texts.goals.safety')
         li.i18nelement(data-i18n='texts.goals.construction')
         li.i18nelement(data-i18n='texts.goals.fun')
 
-    h1.text-center.p-4.pt-5(class="animate__animated animate__fadeInUp animate__delay-5s") 
+    h1.text-center.p-4.pt-5() 
         .i18nelement(data-i18n='headers.pictures')
     
-    p.lead.text-center.pt-2.px-2.mx-2.i18nelement(class="animate__animated animate__fadeInUp animate__delay-5s" data-i18n='texts.pictures')
+    p.lead.text-center.pt-2.px-2.mx-2.i18nelement( data-i18n='texts.pictures')
 
 
-    h1.text-center.p-4.pt-5(class="animate__animated animate__fadeInUp animate__delay-5s") 
+    h1.text-center.p-4.pt-5() 
         .i18nelement(data-i18n='headers.contact')
 
-    .text-center.pt-2.pb-5.px-2.mx-2(class="animate__animated animate__fadeInUp animate__delay-5s") 
+    .text-center.pt-2.pb-5.px-2.mx-2() 
         p.lead.i18nelement(data-i18n='texts.contact')
         a.lead(href="mailto:ifloat@stjarnholm.com") ifloat@stjarnholm.com
     //- p.lead.text-center.pt-2.pb-5(class="animate__animated animate__fadeInUp animate__delay-5s")
