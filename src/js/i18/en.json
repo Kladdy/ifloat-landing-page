@@ -19,7 +19,8 @@
         "people": "Crew",
         "goal": "Goals",
         "pictures": "Pictures",
-        "contact": "Contact"
+        "contact": "Contact",
+        "sponsors": "Sponsor"
     },
     "texts": {
         "goal": "To construct a raft and partake in the Uppsala River Rafting 2022 with brilliance. We also want to:",
@@ -29,7 +30,8 @@
             "fun": "have a really good time!"
         },
         "pictures": "Pictures of the construction and the river rafting will come once the event has started (end of April). Stay tuned!",
-        "contact": "Do you want to get in contact with us? Please reach out to "
+        "contact": "Do you want to get in contact with us? Please reach out to ",
+        "sponsors": "Huge appreciation for Profilewear.se, who is sponsoring out participation in the river rafting!"
     }
 }
     

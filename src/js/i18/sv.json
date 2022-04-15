@@ -19,7 +19,8 @@
         "people": "Besättning",
         "goal": "Mål",
         "pictures": "Bilder",
-        "contact": "Kontakt"
+        "contact": "Kontakt", 
+        "sponsors": "Sponsor"
     },
     "texts": {
         "goal": "Att under Forsränningen 2022, Uppsala, konstruera och framföra en flotte med bravur. Vi vill även:",
@@ -29,7 +30,8 @@
             "fun": "ha det riktigt roligt!"
         },
         "pictures": "Bilder på flottbyggandet och forsränningen kommer när evenemanget har börjat (slutet av april). Stay tuned!",
-        "contact": "Vill du komma i kontakt med oss? Hör av dig till "
+        "contact": "Vill du komma i kontakt med oss? Hör av dig till ",
+        "sponsors": "Stort tack till Profilewear.se, som sponsrar vårt deltagande i forsränningen!"
     }
 }
     
