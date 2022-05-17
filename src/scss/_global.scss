@@ -26,15 +26,14 @@
 
 .pictures-class {
     max-width: 95%;
-    overflow: hidden;
-    text-align: center;
     margin: auto;
 
     img {
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin: 2px;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 15px;
+        width: 100%;
         max-width: 500px;
     }
 }
