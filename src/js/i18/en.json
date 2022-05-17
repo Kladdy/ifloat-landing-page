@@ -29,7 +29,12 @@
             "construction": "explore modern raft construction techniques",
             "fun": "have a really good time!"
         },
-        "pictures": "Pictures of the construction and the river rafting will come once the event has started (end of April). Stay tuned!",
+        "pictures": {
+            "construction": "Construction",
+            "rafting": "Rafting",
+            "video": "Video from the rafting",
+            "3dscan": "3D-scan of the raft"
+        },
         "contact": "Do you want to get in contact with us? Please reach out to ",
         "sponsors": "Huge appreciation for Profilewear.se, who is sponsoring out participation in the river rafting!"
     }

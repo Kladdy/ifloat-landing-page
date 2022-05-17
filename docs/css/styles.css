@@ -11296,6 +11296,12 @@ textarea.form-control-lg {
   border-radius: 15px;
 }
 
+.pictures-class img {
+  margin: 10px;
+  border-radius: 15px;
+  max-width: 500px;
+}
+
 .list-to-be-centered {
   display: table;
   margin: 0 auto;

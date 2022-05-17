@@ -29,9 +29,13 @@
             "construction": "utforska moderna flottbyggarmetoder",
             "fun": "ha det riktigt roligt!"
         },
-        "pictures": "Bilder på flottbyggandet och forsränningen kommer när evenemanget har börjat (slutet av april). Stay tuned!",
+        "pictures": {
+            "construction": "Byggandet",
+            "rafting": "Rännandet",
+            "video": "Video från rännandet",
+            "3dscan": "3D-skanning av flotten"
+        },
         "contact": "Vill du komma i kontakt med oss? Hör av dig till ",
         "sponsors": "Stort tack till Profilewear.se, som sponsrar vårt deltagande i forsränningen!"
     }
 }
-    
