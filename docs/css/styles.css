@@ -11300,6 +11300,7 @@ textarea.form-control-lg {
   max-width: 95%;
   overflow: hidden;
   text-align: center;
+  margin: auto;
 }
 .pictures-class img {
   margin: 10px;
