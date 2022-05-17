@@ -11303,7 +11303,9 @@ textarea.form-control-lg {
   margin: auto;
 }
 .pictures-class img {
-  margin: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 15px;
   max-width: 500px;
 }
