@@ -11298,6 +11298,8 @@ textarea.form-control-lg {
 
 .pictures-class {
   max-width: 95%;
+  overflow: hidden;
+  text-align: center;
 }
 .pictures-class img {
   margin: 10px;
